@@ -5,10 +5,10 @@ from setup import basedir
 
 class BaseConfig(object):
     MONGODB_SETTINGS = {
-        # 'USERNAME': None,
-        # 'PASSWORD': None,
-        # 'HOST': None,
-        # 'PORT': None
+        'USERNAME': 'lohithn4mlab',
+        'PASSWORD': 'lohithn4mlab',
+        'HOST': 'ds157380.mlab.com',
+        'PORT': 57380,
         'DB': 'demo_db'
     }
     SECRET_KEY = "SO_SECURE"
